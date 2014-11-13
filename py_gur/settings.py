@@ -28,11 +28,8 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
-INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS +LOCAL_APPS
-
 THIRD_PARTY_APPS = (
-    'ipython',
+    'IPython',
     )
 
 DEFAULT_APPS = (
@@ -45,8 +42,10 @@ DEFAULT_APPS = (
 )
 
 LOCAL_APPS = (
-    'image_share'
+    'img_share',
 )
+
+INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS +LOCAL_APPS
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',

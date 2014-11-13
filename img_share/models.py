@@ -1,3 +1,3 @@
 from django.db import models
 
-class Image
+# Create your models here.
