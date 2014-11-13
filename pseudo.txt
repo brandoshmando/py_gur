@@ -1,0 +1,14 @@
+User Model
+  attributes:
+    -first name
+    -last name
+    -email (as username)
+    -password
+    -has many images
+
+Image Model
+  attributes:
+    -title
+    -artist name
+    -image link
+    -belongs to user
