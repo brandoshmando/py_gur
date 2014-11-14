@@ -31,6 +31,11 @@ ALLOWED_HOSTS = []
 THIRD_PARTY_APPS = (
     'IPython',
     'coverage',
+    'model_mommy',
+    'factory_boy',
+    'mock',
+    'django-webtest',
+    'django-discover-runner'
     )
 
 DEFAULT_APPS = (
