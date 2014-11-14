@@ -31,10 +31,8 @@ ALLOWED_HOSTS = []
 THIRD_PARTY_APPS = (
     'IPython',
     'coverage',
-    'factory_boy',
+    'factory',
     'mock',
-    'django-webtest',
-    'django-discover-runner',
     'pyfaker',
     )
 
