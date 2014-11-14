@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 # Application definition
 THIRD_PARTY_APPS = (
     'IPython',
+    'coverage',
     )
 
 DEFAULT_APPS = (
